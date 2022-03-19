@@ -30,4 +30,37 @@
     width: 100%;
     z-index: 1; 
     padding: 0;
+    color: aliceblue;
+}
+.container-fluid-Order{
+    /* justify-content: center;
+    align-items: center; */
+}
+.container-order{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-left: 700px;
+    padding-top: 50px;
+    
+}
+.form-order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.row{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-left: 600px;
+}
+.btn-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 30px 50px 600px ;
+    
 }
