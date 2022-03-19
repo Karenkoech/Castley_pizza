@@ -51,3 +51,29 @@
     text-align: center;
     padding-left: 400px;
 }
+.container_p{
+    display: block;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px ;
+    padding-left: 600px;
+    color: aliceblue;
+    
+
+}
+.container_p p{
+
+}
+.container-fluid-menu{
+    background-color: black;
+}
+    
+
+.cart img{
+    height: 30px;
+    display: flex;
+}
+.text{
+    display: flex;
+}
