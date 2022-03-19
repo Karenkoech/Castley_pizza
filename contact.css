@@ -29,4 +29,11 @@
     width: 100%;
     z-index: 1; 
     padding: 0;
+    color: aliceblue;
+}
+.main_content{
+    display: flex;
+    align-items: center;
+    padding: 80px 30px 50px 700px ;
+    justify-content: center;
 }
