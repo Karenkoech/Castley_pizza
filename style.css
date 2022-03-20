@@ -28,7 +28,7 @@
     top: 0;
     z-index: 999;
 }
-.main_container{
+.home_container{
     background-image: url(./Images/bck\ 4.jpg);
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -38,7 +38,7 @@
     z-index: 1; 
     padding: 0;
 }
-.main_content{
+.home_content{
     /* display: flex; */
     justify-content: center;
     background-color: transparent;
@@ -48,7 +48,7 @@
 
 
 }
-.main_content h1{
+.home_content h1{
     text-align: center;
     font-style: oblique;
     font-size: 3rem;
@@ -61,7 +61,7 @@
     -moz-text-fill-color:transparent;
 
 }
-.main_content p{
+.home_content p{
     margin-top: 1rem;
     font-size: 1rem;
     font-style: italic;
@@ -75,11 +75,9 @@
     display: flex;
     height: 40px;
   }
-  
+
   .jc-center {
-    justify-content: center;
-   
-    
+    justify-content: center; 
   }
   
   button.margin-right {
@@ -96,6 +94,111 @@
     box-sizing: content-box;
 
     
+}
+.container_menu{
+    display: block;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px ;
+    padding-left: 600px;
+    color: aliceblue;
+    
+
+}
+.container-fluid-menu{
+    background-color: black;
+}
+.row-1{
+    padding:20px 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container-fluid-Order{
+    background-color: gray;
+}
+.container_order{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 0px;
+    
+}
+.order_content{
+    display: block;
+    padding: 20px 20px 20px 600px ;
+}
+.form-order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.row{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding:20px 0px 20px 200px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px 30px 200px ; 
+}
+.btn-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px 20px 300px ;
+    
+}
+.pizzaNum{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding:50px 20px 20px 400px;
+}
+.delivery{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px 30px 300px ; 
+}
+.main_content{
+    display: flex;
+    align-items: center;
+    padding: 80px 30px 50px 700px ;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.col-md-4{
+    display: flex;
+}
+.contact-info{
+    display: block;
+    align-items: center;
+    padding: 10px 20px 30px 200px;
+    justify-content: center;
+}
+.details{
+    display: flex;
+    align-items: center;
+    /* padding: 80px 30px 50px 700px ; */
+    justify-content: center;
+}
+.message-form{
+    display: block;
+    align-items: center;
+    /* padding: 80px 30px 50px 700px ; */
+    justify-content: center;
 }
 
     
