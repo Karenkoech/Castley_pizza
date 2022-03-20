@@ -102,22 +102,32 @@
     align-items: center;
     padding-top: 50px ;
     padding-left: 600px;
-    color: aliceblue;
+    color: red;
     
 
 }
 .container-fluid-menu{
-    background-color: black;
+    /* background-color: black; */
+    display: block;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+
 }
-.row-1{
+/* .row-1{
     padding:20px 20px 20px 20px;
     justify-content: center;
     align-items: center;
     display: flex;
-}
+} */
 
 .container-fluid-Order{
-    background-color: gray;
+    /* background-color: rgb(17, 14, 14); */
+    color: rgb(18, 20, 22);
+}
+.order_content{
+    color: red;
 }
 .container_order{
     display: block;
@@ -131,22 +141,35 @@
     padding: 20px 20px 20px 600px ;
 }
 .form-order{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
 }
 .row{
-    display: flex;
+    /* display: block;
     justify-items: center;
     align-items: center;
-    padding:20px 0px 20px 200px;
+    position: relative;
+    justify-content: space-between; */
 }
+.img{
+    border-radius: 100px;
+    /* position: relative;
+    justify-content: space-between; */
+
+}
+
 .button{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 30px 30px 200px ; 
+    padding: 20px 30px 30px 250px ; 
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 0.4rem;
+    
+    
 }
 .btn-1{
     display: flex;
@@ -155,17 +178,29 @@
     padding: 20px 30px 20px 300px ;
     
 }
+.flavours{
+    display: flex;
+}
 .pizzaNum{
     display: flex;
     justify-items: center;
     align-items: center;
-    padding:50px 20px 20px 400px;
+    padding:50px 0px 0px 400px;
+    /* display: none; */
+}
+.table cart{
+    color: rgb(39, 44, 49);
 }
 .delivery{
     display:block;
-    align-items: center;
+    padding-left: 50px ; 
+    /* display: none; */
+}
+.form-group{
+    display: flex;
+    padding: 10px 0 0 200px;
     justify-content: center;
-    padding: 40px 10px 30px 300px ; 
+    align-items: center;
 }
 .main_content{
     display: flex;

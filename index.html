@@ -30,12 +30,12 @@
             <li class="nav-item">
               <a class="nav-link" href="menu.html">Menu</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="reservation.html">Reservation</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
-              </li>
+              </li> -->
           </ul>
         </div>
       </nav>
@@ -47,10 +47,6 @@
               <h1> CASTLEY PIZZA!</h1> <hr>
               <p><span>Castley pizza </span> is here to make you the best pies!</p>
               <p><span> “My love is pizza shaped. Won’t you have a slice? <br> It’s circular, so there’s enough to go around.” – Dora J. Arod </span></p>
-              <div class="flex-parent jc-center">
-                <button type="submit" class="green margin-right" id="btn">Order Now!</button>
-                <button type="submit" class="magenta" id="btn">View Menu</button>
-              </div>
               </div> 
             </div>
           </div>
@@ -60,211 +56,113 @@
             <h1>OUR MENU</h1> 
             <p>Check out our delicious flavours to order!</p>
           </div>
-          <div class="row-1">
+          <div class="row">
             <div class="col-md-1"></div>
-            <div class="col-md-2">
-                <div class="card">
-                 <img class="image__img" src="./Images/marg.jpg" alt="">
-                 <div class="image__overlay">
-                  <div class="textwrap" id="imgWrap">
-                  <div class="image__title">Margherita</div>
-                 </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="card">
-               <img class="image__img" src="./Images/chick.jpg" alt="">
-               <div class="image__overlay">
-                <div class="textwrap" id="imgWrap">
-                <div class="image__title">Chicken Flavour</div>
-               </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="card">
-             <img class="image__img" src="./Images/pepp.jpg" alt="">
-             <div class="image__overlay">
-              <div class="textwrap" id="imgWrap">
-              <div class="image__title">Pepperoni</div>
+            <div class="col-md-6">
+                <img class="img" src="./Images/ital.jpg">
+                <p>Pepperoni Pizza</p>
+                <p>Price:</p>
+                <div class="product-price">Ksh 1200</div>
+            </div> <br> <br>
 
-             </div>
-            </div>
-          </div>
+            <div class="col-md-6">
+                <img class="img" src="./Images/pepp.jpg">
+                <p>Margherita</p>
+                <p>Price:</p>
+                <div class="product-price">Ksh 1100</div>
+            </div> <br> <br>
+            <div class="col-md-6">
+                <img src="./Images/marg.jpg">
+                <p>Chicken Flavour</p>
+                <p>Price:</p>
+                <div class="product-price">Ksh 1000</div>
+            </div><br>
+
         </div>
-
-            <div class="col-md-2">
-                <div class="card">
-                    <img class="image__img" src="./Images/ital.jpg" alt="">
-                    <div class="image__overlay">
-                      <div class="textwrap" id="imgWrap">
-                      <div class="image__title">Italian Chicken</div>
-
-                    </div>
-                    </div>
-                   </div>
-            </div>
-          </div> <br>
-          </div>     
+    </div> <hr>
   <div class="container-fluid-Order">
    <div class="container_order">
    <div class="order_content">
-      <h1>Make an order here.</h1>
-        <p>Check out the different pizza flavours and their <br>  sizes, crusts and toppings <br>  to make your best choice.</p>
+      <h1>Make your order here</h1>
     </div>
   <div class="form-order">
-   <form action="/menu.html">
+   <form action="reload"id="order">
     <div class="row">
     <div class="col-md-1"></div>
-    <div class="col-md-3">
-  <label for="size">Pizza sizes:</label>
+    <div class="col-md-3">  
+  <label for="size">Sizes:</label>
   <select name="size" id="size">
-    <option value="600">Small @ Ksh.600</option>
-    <option value="1200">Medium @Ksh.1200</option>
-    <option value="1600">Large @Ksh.Ksh 1600</option>
+    <option value="">Select</option>
+    <option value="600">Small</option>
+    <option value="1200">Medium</option>
+    <option value="1600">Large</option>
   </select></div>
-  <br><br>
+  <div class="col-md-1"></div>
   <div class="col-md-3">
-  <label for="toppings">Pizza toppings:</label>
+  <label for="toppings">Toppings:</label>
   <select name="toppings" id="toppings">
-    <option value="">Mushrooms @Ksh.50</option>
-    <option value="">Bacon @Ksh.80</option>
-    <option value="">Extra Cheese @Ksh.100</option>
-    <option value="">Chicken @ Ksh.150</option>
-    <option value="">Sausage @ Ksh.150</option>
+    <option value="">Select</option>
+    <option value="50">Mushrooms @Ksh.50</option>
+    <option value="80">Bacon @Ksh.80</option>
+    <option value="100">Extra Cheese @Ksh.100</option> 
   </select></div>
-  <br><br>
   <div class="col-md-3">
-  <label for="size">Type of crust:</label>
+  <label for="size">Crust:</label>
   <select name="crust" id="crust">
-    <option value="Thin">Thin @ Ksh.50</option>
+    <option value="">Select</option>
     <option value="Thick">Thick @ Ksh.100</option>
-    <option value="Thick">Crispy @ Ksh.100</option>
-    <option value="Thick">Gluten-free @ Ksh.150</option>
-  </select></div>
-  </div>
-  <br><br>
-  <div class="pizzaNum">
-  <label for="pizzaNum">Number of Pizzas you would like to buy:</label>
-  <input id="pizzaNum" type="number" name="pizzaNum" value="1"></div>
-   <div class="button">
-  <button  class="btn btn-secondary"> Order Now</button></div> <br> <br>
-</div> 
-</div>
-  <!-- <div class="delivery">
-  <form id="Delivery">
-    <label>HOME DELIVERY:</label><br>     
-    <input type="radio" value="" name="d_method" id="yes">
-    <label for="yes">Yes</label> <br>
-    <input type="text" value="" placeholder="Location"> <br> 
-    <input type="radio" value="" name="d_method" id="no">
-    <label for="no">No</label> <br>
-    <input type="submit" value="submit" placeholder="Submit">
-    </form>
-</div> -->
- </form>
- <div class="container" id="contain">
-  <div class="col-sm-7" id="orderPut">
-                 
-    <div class="orderCalculation">
-      <h2> Chosen order:</h2>
-      <div id="your-orders">
-        <table class="table table-sm  pizzaTable">
-          <thead>
-            <tr>
-              <th scope="col">Flavour</th>
-              <th scope="col">Size</th>
-              <th scope="col">Crust</th>
-              <th scope="col">Topping</th>
-              <th scope="col">Quantity</th>
-              <th scope="col">Total</th>
-            </tr>
-          </thead>
-          <tbody id="ordersTaken">
-            
-          </tbody>
-        </table>
-        <p class="deliveryCost hidden">
-          <span id="delivery-cost"></span>
-      </p>
-      <p class="TotalAmount hidden">
-          <span id="totalAmount"></span>
-      </p>
-      <br /><br />
-        <button class="btn btn-primary" id="Checkout" onclick="castlePiz()">Checkout</button>
-        <div class="checkout-info hidden">
-          <h3 id="check">Checkout form</h3>
-          <form action="" id="checkoutForm">
-  <div class="form-group">
-  <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-  <label for="delivery">Delivery Method</label>
-  <select class="form-control" id="OptionDelivery" required>
-  <option value="deliver">Home Delivery</option>
-  <option value="collect">Pick Up</option>
+    <option value="Crispy">Crispy @ Ksh.120</option>
+    <option value="Gluten-free">Gluten-free @ Ksh.150</option>
   </select>
-  </div>
-  <button type="submit" class="btn btn-primary" id="final-option">Deliver</button>
-  </form>
-  </div>
-  <div class="deliveryLocation hidden">
-  <form id="locationForm">
-  <h3>Location</h3>
-  <div class="form-group">
-  <label>Estate</label>
-  <input type="text" class="form-control" id="estate" placeholder="Enter Your Name"
-      required />
-  </div>
-  <div class="form-group">
-  <label for="exampleFormControlSelect1">House Number</label>
-  <input type="text" class="form-control" id="houseNumber" placeholder="Enter Your Name"
-      required />
-  </div>
-  <button type="submit" class="btn btn-primary" id="submit" >Submit</button>
-  </form>
-  </div>
-        </div>
-      </div>
-    </div>
-  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
   <br>
-<br>
+<div class="pizzaNum">
+  <label for="quantity" >Number of pizza:
+<input type="number" class="quantity" id="pizza" value="1"></label></div>
+<!-- <div class="form-group" id="">
+  <label class="form-check-label" for="deliver"><br>
+  <input class="form-check-input" type="checkbox" name="checkbox" id="deliver">Check for delivery:
+  </label>
+</div> -->
+<div class="delivery">
+<div class="form-group location">
+  <label for="location">Delivery Location:<br>
+  <select class="form-select" id="location">
+          <option value="Not selected">No Delivery</option>
+          <option value="Thika">Thika</option>
+          <option value="Westlands">Westlands</option>
+          <option value="cbd">CBD</option>       
+   </select>
+  </label><br>
+  <div class="button">
+    <button type="button"  class="purchase"  id="orderpiz">ORDER NOW!</button></div>
 </div>
-<div class="row">
-  <div class="col-md-2">
-<div class="contact-info">
- <h1>Follow us:</h1>
- </div>
- <div class="item">
-   <a href="#">
-     <i class="fab fa-facebook-f"></i>
-   </a>
- </div>
- <div class="item">
-  <a href="#">
-    <i class="fab fa-twitter"></i>
-  </a>
+</div><br> <br>
+<table class="table cart">
+  <tr>
+      <th>Size</th>
+      <th>Crust</th>
+      <th>Topping</th>
+      <th>Qty</th>
+      <th>Location</th>
+      <th>Price</th>
+      <th>Remove</th>
+      <th></th>
+
+  </tr>
+</table> <hr>
+<div class="form-group">
+  <button type="button" class="btn btn-success checkout">Checkout</button>
+  <div class="result"></div>
+  <div class="totalDisplay"></div>
 </div>
-<div class="item">
-  <a href="#">
-    <i class="fab fa-instagram"></i>
-  </a>
-</div>
- <div class="details">
-    <h2> Write Us</h2>
-  <form action="">
-      <input type="text" id="name" placeholder="Name" style="background-color: transparent;">
-      <input type="text" id="email" placeholder="Email" style="background-color: transparent;">
-  </form>
-</div> <br>
-<div class="message-form">
-  <textarea name="" id="message" cols="45" rows="10" placeholder="Review.."></textarea>
-</div>
-<button type="submit" class="btn" onclick="textMessage()">Submit</button>
-</div>
-</div>
-</div>
-</div> 
+
+
+  
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
