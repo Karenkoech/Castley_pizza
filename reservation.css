@@ -40,7 +40,7 @@
     display: block;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-left: 700px;
     padding-top: 50px;
     
@@ -57,10 +57,28 @@
     align-items: center;
     padding-left: 600px;
 }
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px 30px 400px ; 
+}
 .btn-1{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 200px 30px 50px 600px ;
+    padding: 20px 30px 20px 300px ;
     
+}
+.pizzaNum{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding:100px 30px 30px 700px;
+}
+.delivery{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px 30px 300px ; 
 }

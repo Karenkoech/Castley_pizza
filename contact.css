@@ -37,3 +37,30 @@
     padding: 80px 30px 50px 700px ;
     justify-content: center;
 }
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.col-md-4{
+    display: flex;
+}
+.contact-info{
+    display: block;
+    align-items: center;
+    padding: 10px 20px 30px 200px;
+    justify-content: center;
+}
+.details{
+    display: flex;
+    align-items: center;
+    /* padding: 80px 30px 50px 700px ; */
+    justify-content: center;
+}
+.message-form{
+    display: block;
+    align-items: center;
+    /* padding: 80px 30px 50px 700px ; */
+    justify-content: center;
+}
