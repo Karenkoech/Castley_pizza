@@ -5,7 +5,6 @@
     /* font-family:'Kumbh Sans', sans-serif; */
 }
     
-
 .navbar-nav{
 
     height: 80px;
@@ -16,6 +15,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+
 }
 #navbar{
     
@@ -27,6 +27,8 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    
+    
 }
 .home_container{
     background-image: url(./Images/bck\ 4.jpg);
