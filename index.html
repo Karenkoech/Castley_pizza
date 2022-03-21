@@ -51,6 +51,7 @@
             </div>
           </div>
       </div>
+      <div class="container_overal">
       <div class="container-fluid-menu">
         <div class="container_menu">
             <h1>OUR MENU</h1> 
@@ -61,29 +62,28 @@
             <div class="col-md-6">
                 <img class="img" src="./Images/ital.jpg">
                 <p>Pepperoni Pizza</p>
-                <p>Price:</p>
-                <div class="product-price">Ksh 1200</div>
+                <p>Price 1200:</p>
+                <div class="product-price"></div>
             </div> <br> <br>
 
             <div class="col-md-6">
                 <img class="img" src="./Images/pepp.jpg">
                 <p>Margherita</p>
-                <p>Price:</p>
-                <div class="product-price">Ksh 1100</div>
+                <p>Price 1100:</p>
+                <div class="product-price"></div>
             </div> <br> <br>
             <div class="col-md-6">
                 <img src="./Images/marg.jpg">
                 <p>Chicken Flavour</p>
-                <p>Price:</p>
-                <div class="product-price">Ksh 1000</div>
-            </div><br>
-
+                <p>Price 1000:</p>
+                <div class="product-price"></div>
+            </div>
         </div>
-    </div> <hr>
+    </div> <br> <br>
   <div class="container-fluid-Order">
    <div class="container_order">
    <div class="order_content">
-      <h1>Make your order here</h1>
+      <h1>Make your order here!..</h1>
     </div>
   <div class="form-order">
    <form action="reload"id="order">
@@ -93,33 +93,32 @@
   <label for="size">Sizes:</label>
   <select name="size" id="size">
     <option value="">Select</option>
-    <option value="600">Small</option>
-    <option value="1200">Medium</option>
-    <option value="1600">Large</option>
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
   </select></div>
   <div class="col-md-1"></div>
   <div class="col-md-3">
   <label for="toppings">Toppings:</label>
   <select name="toppings" id="toppings">
     <option value="">Select</option>
-    <option value="50">Mushrooms @Ksh.50</option>
-    <option value="80">Bacon @Ksh.80</option>
-    <option value="100">Extra Cheese @Ksh.100</option> 
+    <option value="mushroom">Mushrooms @Ksh.50</option>
+    <option value="Bacon">Bacon @Ksh.80</option>
+    <option value="Extra Cheese">Extra Cheese @Ksh.100</option> 
   </select></div>
   <div class="col-md-3">
   <label for="size">Crust:</label>
   <select name="crust" id="crust">
     <option value="">Select</option>
-    <option value="Thick">Thick @ Ksh.100</option>
-    <option value="Crispy">Crispy @ Ksh.120</option>
-    <option value="Gluten-free">Gluten-free @ Ksh.150</option>
+    <option  label="Thick" value="thick">Thick</option>
+    <option label="Crispy" value="crispy">Crispy</option>
+    <option  label="Gluten-free"value="glutten-free">Glutten-free</option>
   </select>
 </div>
 </div>
 </div>
 </div>
 </div>
-  <br>
 <div class="pizzaNum">
   <label for="quantity" >Number of pizza:
 <input type="number" class="quantity" id="pizza" value="1"></label></div>
@@ -130,18 +129,24 @@
 </div> -->
 <div class="delivery">
 <div class="form-group location">
-  <label for="location">Delivery Location:<br>
+  <label for="location onclick =">Delivery Location:<br>
   <select class="form-select" id="location">
           <option value="Not selected">No Delivery</option>
           <option value="Thika">Thika</option>
           <option value="Westlands">Westlands</option>
-          <option value="cbd">CBD</option>       
+          <option value="CBD">CBD</option> 
+          <option value="Other">Other</option> 
+
    </select>
   </label><br>
   <div class="button">
-    <button type="button"  class="purchase"  id="orderpiz">ORDER NOW!</button></div>
+    <button type="button"  class=" btn btn-success purchase"  id="orderpiz ">ORDER NOW</button></div>
+    <!-- <div class="remove">
+      <button type="button" id="delete">Delete order</button>
+    </div> -->
 </div>
 </div><br> <br>
+<div class="table">
 <table class="table cart">
   <tr>
       <th>Size</th>
@@ -154,11 +159,23 @@
       <th></th>
 
   </tr>
-</table> <hr>
+</table>
 <div class="form-group">
   <button type="button" class="btn btn-success checkout">Checkout</button>
   <div class="result"></div>
   <div class="totalDisplay"></div>
+</div>
+</div>
+</div>
+<div class="contact-info">
+  <h3><b>Castley pizza</b></h3>
+  <div class="row">
+      <div class="">
+       <p> It is a pleasure to serve you!, <br>Contact us through;</p>
+          <h2>Email:</h2>
+          <p>castleypizza@gmail.com</p>
+  </div>
+</div>
 </div>
 
 
