@@ -95,6 +95,12 @@
 
     
 }
+.container_overal{
+    background-color: pink;
+    background-image: linear-gradient(to top, rgba(233, 110, 28, 0.911) 0%,rgb(235, 109, 92) 100%);
+    color: rgb(29, 2, 13);
+    font-size: 20px;
+}
 .container_menu{
     display: block;
     padding-bottom: 50px;
@@ -102,12 +108,12 @@
     align-items: center;
     padding-top: 50px ;
     padding-left: 600px;
-    color: red;
+    color: rgb(39, 1, 9);
     
 
 }
 .container-fluid-menu{
-    /* background-color: black; */
+    /* background-color: rgb(177, 103, 98); */
     display: block;
     justify-items: center;
     align-items: center;
@@ -123,11 +129,11 @@
 } */
 
 .container-fluid-Order{
-    /* background-color: rgb(17, 14, 14); */
+    /* background-color: rgb(177, 103, 98); */
     color: rgb(18, 20, 22);
 }
 .order_content{
-    color: red;
+    color: rgb(4, 33, 51);
 }
 .container_order{
     display: block;
@@ -154,10 +160,13 @@
     justify-content: space-between; */
 }
 .img{
-    border-radius: 100px;
-    /* position: relative;
-    justify-content: space-between; */
+    border-radius: 10px;
+    position: relative;
+    justify-content: space-between;
 
+}
+.table{
+    /* background-color:rgb(177, 103, 98) ; */
 }
 
 .button{
@@ -185,22 +194,26 @@
     display: flex;
     justify-items: center;
     align-items: center;
-    padding:50px 0px 0px 400px;
+    padding:80px 0px 50px 500px;
     /* display: none; */
+    /* background-color: rgb(177, 103, 98); */
 }
-.table cart{
+.cart{
     color: rgb(39, 44, 49);
+    /* background-color:rgb(177, 103, 98) ; */
 }
 .delivery{
     display:block;
     padding-left: 50px ; 
     /* display: none; */
+    /* background-color: rgb(177, 103, 98); */
 }
 .form-group{
     display: flex;
-    padding: 10px 0 0 200px;
+    padding: 30px 0 20px 200px;
     justify-content: center;
     align-items: center;
+    /* background-color: rgb(177, 103, 98); */
 }
 .main_content{
     display: flex;
@@ -219,21 +232,21 @@
 }
 .contact-info{
     display: block;
-    align-items: center;
-    padding: 10px 20px 30px 200px;
+    align-items: center; 
+    padding: 10px 20px 30px 100px;
     justify-content: center;
+    color: rgb(243, 82, 8);
+    background-size: cover;
+    background-color: rgb(2, 19, 19)
+    
+;
 }
-.details{
-    display: flex;
-    align-items: center;
-    /* padding: 80px 30px 50px 700px ; */
-    justify-content: center;
+.contact-info h3{
+align-items: center;
+justify-content: center;
+padding-left: 580px;
+
 }
-.message-form{
-    display: block;
-    align-items: center;
-    /* padding: 80px 30px 50px 700px ; */
-    justify-content: center;
-}
+
 
     
