@@ -4,33 +4,34 @@ $(document).ready(function() {
         var size = $("#size  option:selected").val();
         var crust = $("#crust  option:selected").val();
         var toppings = $("#toppings  option:selected").val()
-        var quantity = $(".quantity").val();
+        var quantity =  $(".quantity").val();
         var location = $("#location option:selected").val()
-        var price = $("input[type='checkbox']").val();
+        var price = $("button#orderpiz").val();
 
         function quantityChanged() {
 
-            if (isNaN(quantity) || quantity <= 0) {
-                quantity = 1
-            }
+            // if (isNaN(quantity) || quantity <= 0) {
+            //     quantity = 1
+            // }
+            
         }
         quantityChanged();
         var crustPrice;
         if (toppings === 'mushroom') {
-            crustPrice = 50
+            crustPrice = 100
         } else if (toppings === 'Bacon') {
-            crustPrice = 150
+            crustPrice =120 
         } else if (toppings === 'Extra Cheese') {
 
-            crustPrice = 100;
+            crustPrice = 150;
         }
         var toppingPrice;
         if (crust === 'thick') {
-            toppingPrice = 100
+            toppingPrice = 50
         } else if (crust === 'crispy') {
-            toppingPrice = 120
-        } else if (crust === 'gluttenFree') {
-            toppingPrice = 150
+            toppingPrice = 80
+        } else if (crust === 'glutten-free') {
+            toppingPrice = 100
         }
         var price;
         if (size === 'large') {
@@ -45,7 +46,7 @@ $(document).ready(function() {
         }
         
 
-        var totalCost = quantity * (price + crustPrice + toppingPrice);
+        var totalCost =parseInt (quantity * (price + crustPrice + toppingPrice));
         var overalCost = parseInt(totalCost);
 
         $(".cart").append(
